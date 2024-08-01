@@ -1,0 +1,25 @@
+  .method .join__animation, .input,.text{
+    transition: .4s all ease-out;
+  }
+  .method .join__animation{
+    transform: translateX(-50%);
+  }
+  .method .join__animation.active{
+    transform: translateX(0%);
+  }
+  .method .join__animation .input{
+    opacity: 0;
+  }
+  .method .join__animation input{
+    outline: none !important;
+    box-shadow: inset 3px 3px 7px -4px black;
+  }
+  .method .join__animation.active .input{
+    opacity: 100;
+  }
+  .method .join__animation .text{
+    opacity: 100;
+  }
+  .method .join__animation.active .text{
+    opacity: 0;
+  }
